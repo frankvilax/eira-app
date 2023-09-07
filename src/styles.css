@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.subject {
+  font-size: 2vw;
+}
+
+.leftSection {
+  width: 15%;
+}
+
+.rightSection {
+  width: 15%;
+}
+
+@media (max-width: 450px) {
+  .leftSection {
+    width: 5%;
+  }
+
+  .rightSection {
+    width: 5%;
+  }
+
+  .subject {
+    font-size: 4vw;
+  }
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+/* CHECKBOX HACK */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/*HAMBURGER MENU*/
+
+.hamburger {
+  display: none;
+
+  font-size: 24px;
+
+  user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */

@@ -1,0 +1,146 @@
+.aboutStructure {
+  display: flex;
+}
+
+.aboutContent {
+  width: 70%;
+}
+
+.person {
+  font-size: 1.5vw;
+}
+
+.text {
+  display: flex;
+  margin-top: 1rem;
+  color: rgb(116, 76, 36);
+  position: relative;
+  top: 2rem;
+  margin-bottom: 10rem;
+}
+
+.separator {
+  margin-top: -1vw;
+}
+
+.resume {
+  font-size: 1.2vw;
+  width: 70%;
+  margin-left: 5rem;
+}
+
+.curriculum {
+  width: 30%;
+}
+
+.whitespace {
+  width: 10%;
+}
+
+.resumePortuguese {
+  color: rgb(116, 76, 36);
+}
+
+.resumeEnglish {
+  color: rgb(206, 174, 142);
+}
+
+.resumeProjects {
+  font-size: 1vw;
+}
+
+.resumeProjectsLocation {
+  color: rgb(199, 178, 158);
+}
+
+.colaboration {
+  font-size: 1vw;
+}
+
+.colaborationName {
+  font-weight: bold;
+}
+
+.colaborationSocial {
+  color: rgb(199, 178, 158);
+  text-decoration: underline;
+}
+
+.colaborationSocial:hover {
+  color: rgb(199, 178, 158);
+
+  opacity: 0.8;
+}
+
+.location {
+  color: rgb(199, 178, 158);
+  font-size: 1vw;
+}
+
+@media (max-width: 1000px) {
+  .text p {
+    margin-top: -1vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .text p {
+    margin-top: -1.5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .text p {
+    margin-top: -2vw;
+  }
+  .separator {
+    margin-top: -2vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .aboutContent {
+    width: 90%;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .resume {
+    margin-top: -1.5rem;
+    margin-left: 0;
+    width: 100%;
+    font-size: 3.5vw;
+  }
+
+  .curriculum {
+    width: 100%;
+  }
+
+  .text p {
+    margin-top: -2.5vw;
+  }
+
+  .person {
+    font-size: 4vw;
+  }
+  .resumeProjects {
+    font-size: 3vw;
+  }
+
+  .colaboration {
+    font-size: 3vw;
+  }
+
+  .location {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .text p {
+    margin-top: -3vw;
+  }
+}

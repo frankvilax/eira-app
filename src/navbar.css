@@ -1,0 +1,169 @@
+.navbarStructure {
+  display: flex;
+  height: 10vw;
+}
+
+.navbar {
+  display: flex;
+  width: 70%;
+}
+
+.header {
+  margin-right: 0%;
+}
+
+.title {
+  font-family: "Lucida Sans";
+  color: rgb(116, 76, 36);
+  margin-top: 1rem;
+  font-size: 1.4vw;
+}
+
+.description1 {
+  font-family: "Lucida Sans";
+  font-size: 1vw;
+  color: rgb(116, 76, 36);
+  margin-top: -0.5rem;
+}
+
+.description2 {
+  font-family: "Lucida Sans";
+  font-size: 1vw;
+  color: rgb(116, 76, 36);
+  margin-top: -1rem;
+}
+
+.logoContainer {
+  width: 10%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.navlinks {
+  list-style-type: none;
+  display: flex;
+  gap: 1vw;
+  font-family: "Lucida Sans";
+  color: rgb(116, 76, 36);
+  font-size: 1vw;
+  margin-top: 1rem;
+}
+
+.menu {
+  display: flex;
+  gap: 2vw;
+  margin-left: 0rem;
+}
+
+.menuAbout:hover {
+  opacity: 70%;
+  transition: opacity 0.5s;
+}
+
+.menuContact:hover {
+  opacity: 70%;
+  transition: opacity 0.5s;
+}
+
+.social1 {
+  height: 1.5vw;
+  margin-bottom: 0.1rem;
+}
+
+.social1:hover {
+  opacity: 70%;
+  transition: opacity 0.5s;
+}
+
+.social2:hover {
+  opacity: 70%;
+  transition: opacity 0.5s;
+}
+
+.social2 {
+  height: 1.5vw;
+  margin-bottom: 0.1rem;
+}
+
+@media (max-width: 840px) {
+  .logo {
+    margin-left: 1.5vw;
+  }
+
+  .navlinks {
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbarStructure {
+    height: 13vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    width: 90%;
+  }
+  .navbarStructure {
+    display: flex;
+    height: 20vw;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .navlinks {
+    margin-left: 0rem;
+    font-size: 3vw;
+    gap: 3vw;
+  }
+
+  .title {
+    font-size: 1.8vw;
+  }
+
+  .description1 {
+    font-size: 1.3vw;
+  }
+
+  .description2 {
+    font-size: 1.3vw;
+  }
+
+  .social1 {
+    height: 4vw;
+    margin-bottom: 0.1rem;
+  }
+
+  .social2 {
+    height: 4vw;
+    margin-bottom: 0.1rem;
+  }
+
+  .logoContainer {
+    width: 15%;
+  }
+  .logo {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbarStructure {
+    display: flex;
+    height: 25vw;
+  }
+
+  .navlinks {
+    padding-left: 0;
+  }
+}

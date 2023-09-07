@@ -1,0 +1,202 @@
+.projectsStructure {
+  display: flex;
+}
+
+.projects {
+  margin-bottom: 10rem;
+  width: 70%;
+}
+
+.subject {
+  font-family: "Lucida Sans";
+  color: rgb(116, 76, 36);
+}
+
+.separator {
+  font-family: "Lucida Sans";
+  color: rgb(116, 76, 36);
+  margin-top: -1vw;
+}
+
+.containerTop {
+  display: flex;
+}
+
+.containerTopLeft {
+  width: 50%;
+}
+
+.containerTopRight {
+  width: 50%;
+}
+
+.carrousel {
+  width: 100%;
+}
+
+.carrousel-item {
+  width: 100%;
+}
+
+.plant {
+  width: 100%;
+}
+
+.containerBottom {
+  display: flex;
+}
+
+.containerBottomLeft {
+  width: 20%;
+}
+
+.containerBottomMiddle {
+  width: 30%;
+}
+
+.containerBottomRight {
+  width: 50%;
+}
+
+.description-title {
+  font-family: "Lucida Sans";
+  color: rgb(116, 76, 36);
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.description-topic {
+  font-family: "Lucida Sans";
+  color: rgb(116, 76, 36);
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-right: 0.2rem;
+}
+
+.description-topic-translation {
+  font-family: "Lucida Sans";
+  color: rgb(116, 76, 36);
+  font-size: 0.8rem;
+}
+
+.description {
+  font-family: "Lucida Sans";
+  color: rgb(116, 76, 36);
+  font-size: 0.8rem;
+  margin-top: -1rem;
+}
+
+.accordion-item {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+.accordion {
+  width: 100%;
+  margin: 2rem auto;
+  color: blue;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 0.5rem;
+}
+
+.accordion-title-text {
+  color: rgb(116, 76, 36);
+  font-weight: bold;
+  font-size: 13;
+  align-self: center;
+}
+
+.accordion-symbol {
+  color: rgb(116, 76, 36);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 800px) {
+  .containerBottomLeft {
+    width: 30%;
+  }
+  .containerBottomMiddle {
+    width: 20%;
+  }
+}
+
+@media (max-width: 600px) {
+  .separator {
+    margin-top: -2vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .containerBottomLeft {
+    width: 40%;
+  }
+  .containerBottomMiddle {
+    width: 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .projects {
+    width: 90%;
+  }
+  .containerTop {
+    display: block;
+  }
+
+  .containerBottom {
+    display: block;
+  }
+
+  .containerTopLeft {
+    width: 100%;
+  }
+
+  .containerTopRight {
+    width: 100%;
+  }
+  .containerBottomLeft {
+    width: 100%;
+  }
+  .containerBottomRight {
+    width: 100%;
+  }
+
+  .separator {
+    margin-top: -3vw;
+  }
+
+  .description-topic {
+    font-size: 1rem;
+  }
+
+  .description-topic-translation {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .accordion-title-text {
+    align-self: center;
+  }
+
+  .accordion-content {
+    font-size: 1rem;
+  }
+  .accordion-symbol {
+    font-size: 1.4rem;
+  }
+}

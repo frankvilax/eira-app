@@ -1,0 +1,103 @@
+.homeStructure {
+  display: flex;
+}
+
+.homeContent {
+  width: 70%;
+}
+
+.gridContainer {
+  display: flex;
+  gap: 5%;
+}
+
+.gridItem {
+  position: relative;
+  text-align: center;
+  width: 30%;
+}
+
+.gridItemImage {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+  cursor: pointer;
+  transition: opacity 0.5s;
+  opacity: 1;
+  margin-top: 2.5rem;
+}
+
+.gridItem:hover .gridItemImage {
+  opacity: 30%;
+}
+.gridItem:hover .caption {
+  opacity: 1;
+}
+
+.caption {
+  position: relative;
+  bottom: 9vw;
+  opacity: 0;
+  transition: opacity 0.5s;
+  height: 0;
+}
+
+.gridDivision {
+  padding: 0.6%;
+}
+
+.descriptions {
+  color: rgb(116, 76, 36);
+  font-size: 0.7vw;
+  font-weight: bold;
+}
+
+.subDescriptions {
+  color: rgba(186, 149, 110, 1);
+  font-size: 0.6vw;
+  font-weight: bold;
+}
+
+@media (max-width: 450px) {
+  .homeContent {
+    width: 90%;
+    padding-bottom: 4rem;
+  }
+  .gridContainer {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gridContainer:nth-child(1) {
+    margin-top: 0rem;
+  }
+
+  .gridItem {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+  .gridItemImage {
+    width: 100%;
+    height: 40vw;
+    margin-top: 0.5rem;
+  }
+
+  .caption {
+    bottom: 25vw;
+  }
+
+  .descriptions {
+    color: rgb(116, 76, 36);
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+
+  .subDescriptions {
+    color: rgba(186, 149, 110, 1);
+    font-size: 2.4vw;
+    font-weight: bold;
+  }
+}
